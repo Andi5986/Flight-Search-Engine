@@ -1,7 +1,5 @@
 import streamlit as st
 import json
-import os
-from dotenv import load_dotenv
 from serpapi.google_search import GoogleSearch
 
 class FlightSearchEngine:
@@ -20,8 +18,7 @@ class FlightSearchEngine:
         used for flight search requests. This API key is essential for making requests
         to the search API.
         """
-        load_dotenv()
-        self.api_key = os.getenv('SERPAPI_API_KEY')
+        self.api_key = st.secrets["api_key"]
 
     def load_cities_airports(self):
         """
