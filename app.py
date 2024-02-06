@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 from dotenv import load_dotenv
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 
 class FlightSearchEngine:
     def __init__(self):
