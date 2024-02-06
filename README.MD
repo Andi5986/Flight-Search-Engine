@@ -46,8 +46,8 @@ streamlit run app.py
 
 Follow the interactive prompts on the web interface to select your departure and arrival cities, flight dates, and search for flights. The application will display a list of available flights along with detailed information for each flight option.
 
-Contributing
+### Contributing
 Contributions to the Flight Search Engine are welcome. Please feel free to fork the repository, make changes, and submit pull requests with your improvements.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.# Flight-Search-Engine
